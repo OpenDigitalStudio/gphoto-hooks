@@ -1,0 +1,25 @@
+# Base settings for OpenDigitalStudio tethering and  gphoto2 hooks.
+#
+# Remove or comment out any fields not needed. All options are optional.
+
+# Session name for the shoot (will be appended to the destination paths)
+#export ODS_SESSION=
+
+# Max size of the long edge of the image. Image will be halved until it fits
+# maintaining aspect ratio.
+#export ODS_FIT_BOX=
+
+# Comma separated list of paths where the raw will be saved. If the folders
+# do not exist they will be created. The session name will be appended.
+#export ODS_RAW_DESTINATIONS=
+
+# Base path of the gallery (session name will be appended). The jpgs will
+# be saved here.
+#export ODS_GALLERY_PATH=
+
+# Base path of the work dir. If it doesn't exist it will be created and
+# all data will be cached here. Default is ramdrive for best performance.
+#export ODS_WORKDIR=/dev/shm/ods
+
+# The logo to be used as splash screen before first image has been taken.
+#export ODS_LOGO=
