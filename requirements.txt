@@ -1,0 +1,4 @@
+imageio>=2.6.1 # BSD
+Pillow>=4.1.1 # HPND
+py3exiv2>=0.7.1 # GPLv3
+rawpy>=0.13.1 # MIT
